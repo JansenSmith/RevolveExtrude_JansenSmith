@@ -1,4 +1,4 @@
-double wheelRadius = 33.0/2.0
+double wheelRadius = 33.0
 wheelHeight=17.6
 double radius = 6.0
 CSG profile = new RoundedCube(	wheelRadius,// X dimention
