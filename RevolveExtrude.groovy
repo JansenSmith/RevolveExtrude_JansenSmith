@@ -9,6 +9,7 @@ CSG profile = new RoundedCube(	wheelRadius,// X dimention
 				.toCSG()// converts it to a CSG tor display
 				.toXMin()
 				.toZMin()
+				.movex(10)
 //create a Cylinder
 height = 22.5
 CSG wheel_body = CSG.unionAll(
