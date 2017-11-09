@@ -13,7 +13,7 @@ CSG profile = new RoundedCube(	wheelRadius,// X dimention
 //create a Cylinder
 height = 22.5
 CSG wheel_body = CSG.unionAll(
-		Extrude.revolve(profile,(double)0,(int)10)
+		Extrude.revolve(profile,(double)0,(double)180,(int)10)
 		)
 		.movez(wheelHeight*1.5)
 
